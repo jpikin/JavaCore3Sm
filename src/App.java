@@ -10,5 +10,7 @@ public class App {
 
         System.out.println("Средняя зарплата " + freelancer.getName() +": " +freelancer.averageSalary());
         System.out.println("Средняя зарплата " + worker.getName() +": "+ worker.averageSalary());
+
+        Emploee[] emploeesArray = {freelancer,worker};
     }
 }

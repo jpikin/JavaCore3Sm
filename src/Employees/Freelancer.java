@@ -14,4 +14,6 @@ public class Freelancer extends Emploee{
     public Double averageSalary() {
         return this.salaryHour * 20.8 * 8;
     }
+
+
 }
