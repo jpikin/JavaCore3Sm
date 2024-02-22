@@ -11,9 +11,9 @@ import java.util.*;
 public class App {
     public static void main(String[] args) {
 
-        Emploee freelancer = new Freelancer("Nikolay", 1982,450d);
+        Emploee freelancer = new Freelancer("Nikolay", 1982, 450d);
         Emploee worker = new Worker("Aleksey", 1990, 60000d);
-        Emploee worker2 = new Worker("Artem", 1976,100000d);
+        Emploee worker2 = new Worker("Artem", 1976, 100000d);
 
         ArrayList<Emploee> emploeesArray = new ArrayList<>();
         emploeesArray.add(freelancer);
@@ -28,6 +28,6 @@ public class App {
         emploeesArray.sort(nameComparator);
         Decorator.printDecorator(emploeesArray);
 
-        }
-            }
+    }
+}
 
